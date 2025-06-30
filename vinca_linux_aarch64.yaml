@@ -190,6 +190,7 @@ packages_select_by_deps:
   - topic_tools
 
   - usb-cam
+  - camera_ros
 
   # Used to work, now needs fixes
   # - rtabmap
