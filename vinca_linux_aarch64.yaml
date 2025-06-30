@@ -43,7 +43,6 @@ packages_select_by_deps:
   # only subset of packages to reduce maintainer load
   - ros2-controllers
   - diff-drive-controller
-  - libcamera
   - ros_workspace
   - ros_environment
   - ament_cmake
@@ -190,6 +189,9 @@ packages_select_by_deps:
   - topic_tools
 
   - usb-cam
+
+  - libcamera
+  - camera_ros
 
   # Used to work, now needs fixes
   # - rtabmap
